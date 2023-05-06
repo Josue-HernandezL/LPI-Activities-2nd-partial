@@ -1,4 +1,4 @@
-package METODOS_SOLICITADOS.BD;
+package METODOS_SOLICITADOS.models;
 import java.util.Scanner;
 
 public class Alumnos {

@@ -1,2 +1,4 @@
-package CREAR_MODELOS;public class Main {
+package CREAR_MODELOS;
+
+public class Main {
 }

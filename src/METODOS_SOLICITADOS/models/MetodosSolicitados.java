@@ -1,5 +1,5 @@
-package METODOS_SOLICITADOS.BD;
-import static METODOS_SOLICITADOS.BD.Alumnos.*;
+package METODOS_SOLICITADOS.models;
+import static METODOS_SOLICITADOS.models.Alumnos.*;
 
 public class MetodosSolicitados {
 

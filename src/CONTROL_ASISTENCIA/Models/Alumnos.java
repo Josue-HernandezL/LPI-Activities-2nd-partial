@@ -1,9 +1,9 @@
-package CONTROL_ASISTENCIA.BD;
+package CONTROL_ASISTENCIA.Models;
 import java.util.Scanner;
 
 public class Alumnos {
 
-    public static Scanner input = new Scanner(System.in);
+    public static Scanner scanner = new Scanner(System.in);
     public static String[] alumnos = {"CANUL PECH, JOSUE DANIEL",
             "CHAN PACHECO, BRAYAN NATHANAEL",
             "CHAN ZEPEDA, ALAN SAURIEL",
@@ -32,5 +32,7 @@ public class Alumnos {
             "ROSADO KEB, ANAHI CRISTAL",
             "SERRANO LOPEZ, JONATHAN EMMANUEL",
             "SOLIS CAUICH, PALOMA"};
+
+    public static int[] asistencia = new int[alumnos.length];
 
 }
