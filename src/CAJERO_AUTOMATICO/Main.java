@@ -1,2 +1,4 @@
-package CAJERO_AUTOMATICO;public class Main {
+package CAJERO_AUTOMATICO;
+
+public class Main {
 }

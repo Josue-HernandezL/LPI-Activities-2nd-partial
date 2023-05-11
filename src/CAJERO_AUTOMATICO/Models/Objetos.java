@@ -1,16 +1,16 @@
 package CAJERO_AUTOMATICO.Models;
 
-public class Objeto {
+public class Objetos {
 
     private int id;
     private String usuario;
     private double saldo;
     private int pin;
 
-    public Objeto() {
+    public Objetos() {
     }
 
-    public Objeto(int id, String usuario, double saldo, int pin) {
+    public Objetos(int id, String usuario, double saldo, int pin) {
         this.id = id;
         this.usuario = usuario;
         this.saldo = saldo;
