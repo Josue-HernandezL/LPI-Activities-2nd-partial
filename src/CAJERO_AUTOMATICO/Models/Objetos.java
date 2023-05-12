@@ -4,28 +4,23 @@ public class Objetos {
 
     private int id;
     private String usuario;
-    private double saldo;
     private int pin;
 
     public Objetos() {
     }
 
-    public Objetos(int id, String usuario, double saldo, int pin) {
+    public Objetos(int id, String usuario, int pin) {
         this.id = id;
         this.usuario = usuario;
-        this.saldo = saldo;
         this.pin = pin;
     }
 
     public int getId() {
         return id;
     }
+
     public String getUsuario() {
         return usuario;
-    }
-
-    public double getSaldo() {
-        return saldo;
     }
 
     public int getPin() {
@@ -35,12 +30,9 @@ public class Objetos {
     public void setId(int id) {
         this.id = id;
     }
+
     public void setUsuario(String usuario) {
         this.usuario = usuario;
-    }
-
-    public void setSaldo(double saldo) {
-        this.saldo = saldo;
     }
 
     public void setPin(int pin) {
@@ -49,10 +41,9 @@ public class Objetos {
 
     @Override
     public String toString() {
-        return "Cash_machine{" +
-                "id='" + id + '\'' +
-                "usuario='" + usuario +
-                ", saldo=" + saldo +
+        return "Objetos{" +
+                "id=" + id +
+                ", usuario='" + usuario + '\'' +
                 ", pin=" + pin +
                 '}';
     }
